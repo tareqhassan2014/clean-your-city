@@ -146,7 +146,7 @@ const useFirebase = () => {
     return () => unsubscribe;
   }, [auth]);
 
-  //
+  // return
   return {
     user,
     admin,
